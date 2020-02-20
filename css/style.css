@@ -112,6 +112,10 @@
 #myDisplay .left {
     font-size: 30px;
 }
+#myDisplay .left img {
+    margin-top: 30px;
+    width: 400px;
+}
 #myDisplay #displayHeader{
     position: absolute;
     top: 460px;
@@ -135,16 +139,7 @@
     height: 449px;
     display: block;
 }
-/*放大镜效果的布局*/
-#tab {  position: relative;  width: 450px;  height: 450px; background: #CDE074;  z-index: 1;}
-#mark {  position: absolute;  top: 0;  left: 0;  width: 140px;  height: 140px;
-    /*用图片会导致没有直接用颜色，在标准浏览器体验好;但是用这个，在加上边框可以兼容到低版本IE*/
-    background: url("../img/mark.png");
-    /*background:#c40000;*/
-    border: 1px solid #c40000 ;
-    opacity: 0.5;  filter: alpha(opacity=50);  cursor: move;  }
-#container{ position:absolute; height:450px; width:450px; background:pink; overflow:hidden;left: 480px;top: 0px;z-index: 2;}
-#bigImg{ position:absolute; display:block; border:none;}
+
 /*商品展示右侧区域*/
 #myDisplay .right{
     position: absolute;
@@ -459,7 +454,10 @@
 #introduces .right ul li:hover{
     background: #7cbaf8;
 }
-
+#introduces .right ul li img {
+    width: 189px;
+    height: 185px;
+}
 /*个人简介和技能书区域结束*/
 
 /*工作经历区域开始*/
