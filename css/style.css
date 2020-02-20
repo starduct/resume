@@ -8,33 +8,33 @@
 .header{
     position: relative;
     width: 1200px;
-    height: 100px;
+    height: 80px;
 }
 .header .logo{
     position: absolute;
     left: 0;
-    top: 30px;
+    top: 15px;
     font-size: 30px;
     color: #c40000;
 }
 .header .explain{
     position: absolute;
     right: 0;
-    top: 30px;
+    top: 15px;
     width: 950px;
     height: 100px;
 }
 .header .explain a {
     position: absolute;
-    left: 0px;
+    left: 0;
     top: 10px;
     cursor: default;
 }
 .header .phone-nub{
     position: absolute;
-    right: 0px;
-    top:-5px;
-    font-size: 38px;
+    right: 0;
+    top: 0;
+    font-size: 34px;
     color: #c40000;
 }
 .header .phone-nub img {
@@ -106,38 +106,16 @@
 /*商品展示区域开始*/
 #myDisplay{
     width: 1210px;
-    height: 630px;
-    margin-top: 38px;
+    height: 495px;
+    background-color: #eee;
 }
 #myDisplay .left {
     font-size: 30px;
 }
 #myDisplay .left img {
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
     width: 400px;
-}
-#myDisplay #displayHeader{
-    position: absolute;
-    top: 460px;
-}
-#myDisplay #displayHeader li{
-    float: left;
-    width: 80px;
-    height: 80px;
-    margin-right: 12px;
-    background: lightseagreen;
-    cursor: pointer;
-}
-#myDisplay #displayBody li{
-    width: 449px;
-    height: 449px;
-    display: none;
-    position: relative;
-}
-#myDisplay #displayBody li.select{
-    width: 449px;
-    height: 449px;
-    display: block;
 }
 
 /*商品展示右侧区域*/
@@ -147,9 +125,10 @@
     top: 0;
 }
 #myDisplay .right .title{
-    position: absolute;
-    top: 19px;
+    position: relative;
     width: 710px;
+    height: 60px;
+    margin-top: 20px;
 }
 #myDisplay .right .title span{
     position: absolute;
@@ -159,11 +138,10 @@
     color: #c40000;
 }
 #myDisplay .right .price{
-    position: absolute;
-    top: 109px;
+    position: relative;
     width: 710px;
-    height: 98px;
-    border-bottom: 1px solid #eeeeee;
+    height: 75px;
+    border-bottom: 1px solid #fff;
 }
 #myDisplay .right .price .xiaoxi1{
     display: none;
@@ -214,11 +192,10 @@
     color: #FFF;
 }
 #myDisplay .right .deliver-goods{
-    position: absolute;
-    top: 207px;
-    border-bottom: 1px solid #eeeeee;
+    position: relative;
+    border-bottom: 1px solid #fff;
     width: 710px;
-    height: 100px;
+    height: 90px;
 }
 #myDisplay .right .deliver-goods .one{
     position: absolute;
@@ -248,11 +225,9 @@
     width: 300px;
 }
 #myDisplay .right .buy{
+    position: relative;
     width: 710px;
-    height: 240px;
-    position: absolute;
-    top: 307px;
-
+    height: 170px;
 }
 #myDisplay .right .buy .one{
     position: absolute;
@@ -323,21 +298,22 @@
 }
 #myDisplay .right .buyNowdiv{
     position: absolute;
-    top: 480px;
+    top: 420px;
+    right: 300px;
     width: 400px;
 }
-.buyNow{
+.buyNow {
     display: block;
     width: 200px;
     height: 50px;
     line-height: 50px;
     text-align: center;
     font-size: 18px;
-    color: #FFF;
-    background:#c40000 ;
+    background-color: #c40000 ;
+    color: #fff;
 }
-.buyNow:hover{
-    background:#d90000;
+.buyNow:hover {
+    background-color: #d90000;
 }
 /*商品展示区域结束*/
 
