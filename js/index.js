@@ -23,7 +23,7 @@ for(var i=0;i<headerList.length;i++){
         var tooltip=document.getElementById("tooltip");
         if(tooltip){
             tooltip.style.left= e.clientX+10+"px";
-            tooltip.style.top= e.clientY+20+"px";
+            tooltip.style.top= e.clientY+0+"px";
         }
     };
     headerList[i].onmouseout=function(e){
